@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-import mongoose, { mongo } from 'mongoose'
+import mongoose from 'mongoose'
 
 mongoose.set('useUnifiedTopology', true )
 
