@@ -1,0 +1,30 @@
+{
+  "name": "basicapi",
+  "version": "1.0.0",
+  "description": "This is a basic RESTful API for creating and authenticating users",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "author": "Guilherme Marciano",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.5.0",
+    "mongoose": "^5.8.7"
+  }
+}
